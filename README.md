@@ -80,21 +80,41 @@ The app will start on   http://localhost:4028/ (Vite default).
 
 
 ## 📂 Project Structure
+```
+## 📂 Project Structure
 
 Nutrilife/
-├── public/ # Static assets (images, icons, CSV datasets, etc.)
-├── src/ # Main source code
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Application pages
-│ ├── styles/ # Global styles
-│ └── utils/ # Helper functions & data
-├── package.json # Project dependencies & scripts
-└── vite.config.mjs # Vite configuration
+├── public/
+│   ├── assets/
+│   │   └── Common_PH_foods.csv
+│   ├── favicon.ico
+│   ├── manifest.json
+│   └── robots.txt
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── Routes.jsx
+│
+├── .gitignore
+├── favicon.ico
+├── index.html
+├── jsconfig.json
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── test-data-loading.html
+├── vite.config.mjs
+└── vite.config.mjs.timestamp-*
 
-Copy code
-
-
-
+```
 
 ## 🤝 Contributing
 
