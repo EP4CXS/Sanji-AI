@@ -5,7 +5,7 @@
 Nutrilife is an AI-powered meal planning application designed to help people build a healthier lifestyle. Whether you’re a bodybuilder, worker, student, senior citizen, or anyone struggling to manage daily meals, Nutrilife creates personalized meal plans tailored to your lifestyle, fitness goals, and dietary needs.
 
 
-✨ Features
+## ✨ Features
 
 📅 Meal Planner – Create daily or weekly meal plans that fit your schedule.
 
@@ -19,7 +19,7 @@ Nutrilife is an AI-powered meal planning application designed to help people bui
 
 
 
-👥 Who Is It For?
+## 👥 Who Is It For?
 
 Bodybuilders – Optimize protein intake and macros.
 
@@ -33,7 +33,7 @@ General Users – Anyone who struggles with maintaining a consistent eating life
 
 
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 
 📱 Mobile App Version – iOS & Android support.
 
@@ -45,7 +45,7 @@ General Users – Anyone who struggles with maintaining a consistent eating life
 
 
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 Prerequisites
 
@@ -55,7 +55,7 @@ Node.js
 npm or yarn package manager
 
 
-Installation
+## Installation
 
 
 # Clone the repository
@@ -77,20 +77,26 @@ yarn dev
 
 The app will start on   http://localhost:4028/ (Vite default).
 
-📂 Project Structure
+
+
+## 📂 Project Structure
+
 Nutrilife/
- ├── public/          # Static assets (images, icons, CSV datasets, etc.)
- ├── src/             # Main source code
- │   ├── components/  # Reusable UI components
- │   ├── pages/       # Application pages
- │   ├── styles/      # Global styles
- │   └── utils/       # Helper functions & data
- ├── package.json     # Project dependencies & scripts
- └── vite.config.mjs  # Vite configuration
+├── public/ # Static assets (images, icons, CSV datasets, etc.)
+├── src/ # Main source code
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Application pages
+│ ├── styles/ # Global styles
+│ └── utils/ # Helper functions & data
+├── package.json # Project dependencies & scripts
+└── vite.config.mjs # Vite configuration
+
+Copy code
 
 
 
-🤝 Contributing
+
+## 🤝 Contributing
 
 git 
 Contributions are welcome!
