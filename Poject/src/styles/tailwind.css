@@ -1,0 +1,157 @@
+/* stylelint-disable at-rule-no-unknown */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core System Colors - Dark Theme */
+    --color-background: #1a1a1a; /* dark gray */
+    --color-foreground: #FFFFFF; /* white text */
+    --color-border: #333333; /* dark border */
+    --color-input: rgba(40, 40, 40, 0.8); /* dark input with transparency */
+    --color-ring: #FF4500; /* orange-red ring */
+    
+    /* Card Colors - Glass Morphism */
+    --color-card: rgba(30, 30, 30, 0.7); /* dark with transparency */
+    --color-card-foreground: #FFFFFF; /* white text */
+    
+    /* Popover Colors */
+    --color-popover: rgba(25, 25, 25, 0.95); /* dark with high transparency */
+    --color-popover-foreground: #FFFFFF; /* white text */
+    
+    /* Muted Colors */
+    --color-muted: rgba(50, 50, 50, 0.6); /* dark muted */
+    --color-muted-foreground: #B0B0B0; /* light gray text */
+    
+    /* Primary Colors - Orange/Red Accent */
+    --color-primary: #FF4500; /* orange-red */
+    --color-primary-foreground: #FFFFFF; /* white */
+    
+    /* Secondary Colors */
+    --color-secondary: #FF6B35; /* lighter orange */
+    --color-secondary-foreground: #FFFFFF; /* white */
+    
+    /* Accent Colors */
+    --color-accent: #FF8C42; /* warm orange */
+    --color-accent-foreground: #FFFFFF; /* white */
+    
+    /* Success Colors */
+    --color-success: #4CAF50; /* green-500 */
+    --color-success-foreground: #FFFFFF; /* white */
+    
+    /* Warning Colors */
+    --color-warning: #FFA500; /* orange */
+    --color-warning-foreground: #FFFFFF; /* white */
+    
+    /* Error/Destructive Colors */
+    --color-error: #DC143C; /* crimson red */
+    --color-error-foreground: #FFFFFF; /* white */
+    --color-destructive: #DC143C; /* crimson red */
+    --color-destructive-foreground: #FFFFFF; /* white */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body, p, span, div {
+    font-family: 'Source Sans 3', sans-serif;
+  }
+  
+  .font-caption {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  .nutrition-card {
+    @apply bg-card text-card-foreground rounded-lg border shadow-sm;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(255, 69, 0, 0.15), 0 0 1px 0 rgba(255, 69, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .recipe-card {
+    @apply bg-card text-card-foreground rounded-lg border shadow-sm transition-transform duration-150 ease-out hover:scale-105;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(255, 69, 0, 0.15), 0 0 1px 0 rgba(255, 69, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .progress-ring {
+    @apply rounded-full;
+    background: conic-gradient(var(--color-primary) 0deg, var(--color-muted) 0deg);
+  }
+  
+  .floating-action {
+    @apply fixed bottom-6 right-6 bg-primary text-primary-foreground rounded-full shadow-lg transition-all duration-200 ease-out hover:scale-110;
+    box-shadow: 0 4px 12px 0 rgba(255, 69, 0, 0.4), 0 0 20px 0 rgba(255, 69, 0, 0.2);
+  }
+  
+  .skeleton {
+    @apply animate-pulse bg-muted rounded;
+  }
+  
+  .glass-card {
+    background: rgba(30, 30, 30, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(255, 69, 0, 0.15);
+  }
+  
+  .dark-blur-bg {
+    background: rgba(26, 26, 26, 0.85);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  .elevation-1 {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  }
+  
+  .elevation-2 {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .elevation-3 {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .elevation-4 {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+}

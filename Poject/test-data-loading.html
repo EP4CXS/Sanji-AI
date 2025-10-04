@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Data Loading</title>
+</head>
+<body>
+    <h1>Testing Data Loading</h1>
+    <div id="result"></div>
+    
+    <script>
+        async function testDataLoading() {
+            try {
+                const response = await fetch('/Common_PH_foods.csv');
+                console.log('Response status:', response.status);
+                console.log('Response ok:', response.ok);
+                
+                if (!response.ok) {
+                    throw new Error(`Failed to load CSV: ${response.status} ${response.statusText}`);
+                }
+                
+                const csvText = await response.text();
+                console.log('CSV text length:', csvText.length);
+                console.log('First 200 characters:', csvText.substring(0, 200));
+                
+                const lines = csvText.split('\n');
+                console.log('Number of lines:', lines.length);
+                console.log('First line (headers):', lines[0]);
+                console.log('Second line (first data):', lines[1]);
+                
+                document.getElementById('result').innerHTML = `
+                    <p>✅ CSV file loaded successfully!</p>
+                    <p>Lines: ${lines.length}</p>
+                    <p>First line: ${lines[0]}</p>
+                `;
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('result').innerHTML = `
+                    <p>❌ Error loading CSV: ${error.message}</p>
+                `;
+            }
+        }
+        
+        testDataLoading();
+    </script>
+</body>
+</html>
+
