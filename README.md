@@ -1,6 +1,9 @@
-Nutrilife 🥗
+🥗 Nutrilife
 
-Nutrilife is an AI-powered meal planning application designed to help people build a healthier lifestyle. Whether you’re a bodybuilder, worker, student, senior citizen, or anyone struggling to manage daily meals, Nutrilife creates a personalized meal plan tailored to your lifestyle, fitness goals, and dietary needs.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Nutrilife is an AI-powered meal planning application designed to help people build a healthier lifestyle. Whether you’re a bodybuilder, worker, student, senior citizen, or anyone struggling to manage daily meals, Nutrilife creates personalized meal plans tailored to your lifestyle, fitness goals, and dietary needs.
+
 
 ✨ Features
 
@@ -16,7 +19,7 @@ Nutrilife is an AI-powered meal planning application designed to help people bui
 
 
 
-Who Is It For?
+👥 Who Is It For?
 
 Bodybuilders – Optimize protein intake and macros.
 
@@ -26,17 +29,75 @@ Students – Affordable, balanced meals that support focus and learning.
 
 Seniors – Gentle, easy-to-digest meals for health and longevity.
 
-General Users – Anyone who doesn’t have a consistent eating lifestyle.
+General Users – Anyone who struggles with maintaining a consistent eating lifestyle.
+
 
 
 📌 Future Enhancements
 
-📱 Mobile app version (iOS & Android).
+📱 Mobile App Version – iOS & Android support.
 
-🍽 Recipe database with cooking instructions.
+🍽 Recipe Database – Meals with detailed cooking instructions.
 
-📈 Nutrition tracking & integration with fitness apps.
+📈 Nutrition Tracking – Integration with fitness apps for better health insights.
 
-🔔 Meal reminders & notifications.
- 
+🔔 Meal Reminders – Smart notifications for timely eating habits.
 
+
+
+🚀 Getting Started
+
+Prerequisites
+
+Node.js
+ (v18 or later recommended)
+
+npm or yarn package manager
+
+
+Installation
+
+
+# Clone the repository
+git clone https://github.com/your-username/Nutrilife.git
+
+# Navigate to project folder
+cd Nutrilife
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+Run the App
+npm run dev
+# or
+yarn dev
+
+
+The app will start on   http://localhost:4028/ (Vite default).
+
+📂 Project Structure
+Nutrilife/
+ ├── public/          # Static assets (images, icons, CSV datasets, etc.)
+ ├── src/             # Main source code
+ │   ├── components/  # Reusable UI components
+ │   ├── pages/       # Application pages
+ │   ├── styles/      # Global styles
+ │   └── utils/       # Helper functions & data
+ ├── package.json     # Project dependencies & scripts
+ └── vite.config.mjs  # Vite configuration
+
+
+
+🤝 Contributing
+
+git 
+Contributions are welcome!
+If you’d like to suggest improvements, please fork the repo and submit a pull request.
+
+
+
+📜 License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute it with attribution.
