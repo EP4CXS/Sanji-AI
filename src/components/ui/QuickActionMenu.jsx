@@ -18,14 +18,14 @@ const QuickActionMenu = ({ className = '' }) => {
       label: 'Generate Plan',
       icon: 'Sparkles',
       action: () => navigate('/meal-plan-generator'),
-      variant: 'default',
+      variant: 'outline',
       description: 'Create a new meal plan'
     },
     {
       label: 'Shopping List',
       icon: 'ShoppingCart',
       action: () => navigate('/shopping-list-manager'),
-      variant: 'secondary',
+      variant: 'outline',
       description: 'View your current shopping list'
     }
   ];

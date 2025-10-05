@@ -17,10 +17,10 @@ const Dashboard = () => {
 
   // Mock user profile data
   const userProfile = {
-    name: "Sarah Johnson",
+    name: "Cape, Jhon lloyd",
     role: "Fitness Enthusiast",
     age: 28,
-    sex: "Female",
+    sex: "Male",
     height: "5\'6\"",
     currentWeight: 145,
     targetWeight: 135,
@@ -195,37 +195,6 @@ const Dashboard = () => {
             <div className="xl:col-span-1">
               <NutritionProgressChart nutritionData={nutritionData} />
             </div>
-          </div>
-
-          {/* Action Buttons */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-            <Button
-              variant="default"
-              onClick={handleRegeneratePlan}
-              iconName="RefreshCw"
-              iconPosition="left"
-              className="w-full touch-target"
-            >
-              Regenerate Meal Plan
-            </Button>
-            <Button
-              variant="outline"
-              onClick={handleViewProgress}
-              iconName="BarChart3"
-              iconPosition="left"
-              className="w-full touch-target"
-            >
-              View Detailed Progress
-            </Button>
-            <Button
-              variant="secondary"
-              onClick={handleManageShoppingList}
-              iconName="ShoppingCart"
-              iconPosition="left"
-              className="w-full touch-target"
-            >
-              Manage Shopping List
-            </Button>
           </div>
 
           {/* Quick Actions */}

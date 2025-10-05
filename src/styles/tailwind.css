@@ -22,16 +22,16 @@
     --color-card-foreground: #FFFFFF; /* white text */
     
     /* Popover Colors */
-    --color-popover: rgba(25, 25, 25, 0.95); /* dark with high transparency */
-    --color-popover-foreground: #FFFFFF; /* white text */
+    --color-popover: rgba(25, 25, 25, 0.95); 
+    --color-popover-foreground: #FFFFFF; 
     
     /* Muted Colors */
-    --color-muted: rgba(50, 50, 50, 0.6); /* dark muted */
-    --color-muted-foreground: #B0B0B0; /* light gray text */
+    --color-muted: rgba(50, 50, 50, 0.6); 
+    --color-muted-foreground: #B0B0B0; 
     
     /* Primary Colors - Orange/Red Accent */
-    --color-primary: #FF4500; /* orange-red */
-    --color-primary-foreground: #FFFFFF; /* white */
+    --color-primary: #FF4500; 
+    --color-primary-foreground: #FFFFFF; 
     
     /* Secondary Colors */
     --color-secondary: #FF6B35; /* lighter orange */
@@ -127,6 +127,13 @@
     background: rgba(26, 26, 26, 0.85);
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
+  }
+
+  .btn-outline:hover {
+    background-color: var(--color-primary);
+    color: var(--color-primary-foreground);
+    border-color: var(--color-primary);
+    transition: all 0.2s ease-in-out;
   }
 }
 

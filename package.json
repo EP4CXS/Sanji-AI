@@ -22,7 +22,8 @@
     "scripts": [
       "start",
       "build",
-      "serve"
+      "serve",
+      "dev"
     ],
     "warning": "🚨 CRITICAL: DO NOT REMOVE OR MODIFY ABOVE DEPENDENCIES - Required for app functionality"
   },
@@ -58,7 +59,8 @@
   "scripts": {
     "start": "vite",
     "build": "vite build --sourcemap",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "dev": "vite"
   },
   "eslintConfig": {
     "extends": [
@@ -84,9 +86,9 @@
     "@tailwindcss/line-clamp": "^0.1.0",
     "@tailwindcss/typography": "^0.5.16",
     "@vitejs/plugin-react": "4.3.4",
-    "autoprefixer": "10.4.2",
-    "postcss": "8.4.8",
-    "tailwindcss": "3.4.6",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.4.6",
     "vite": "5.0.0",
     "vite-tsconfig-paths": "3.6.0"
   }
