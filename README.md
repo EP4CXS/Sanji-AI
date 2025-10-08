@@ -2,52 +2,45 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Nutrilife is an AI-powered meal planning application designed to help people build a healthier lifestyle. Whether you’re a bodybuilder, worker, student, senior citizen, or anyone struggling to manage daily meals, Nutrilife creates personalized meal plans tailored to your lifestyle, fitness goals, and dietary needs.
+Nutrilife is an AI-powered meal planning application designed to help users build and maintain a healthier lifestyle. Whether you're a bodybuilder, student, worker, or senior citizen, Nutrilife intelligently creates personalized meal plans tailored to your lifestyle, fitness goals, and dietary needs.
 
+## ✨ Key Features
 
-## ✨ Features
+📅 Meal Planner – Generate daily or weekly meal plans that align with your schedule.
 
-📅 Meal Planner – Create daily or weekly meal plans that fit your schedule.
+🤖 AI Meal Generation – Get intelligent meal suggestions tailored to your lifestyle (e.g., bodybuilder, student, worker, senior).
 
-🤖 AI Meal Generation – AI suggests customized meal plans based on your role (bodybuilder, student, worker, senior, etc.).
+🥦 Nutritional Balance – Ensure all meals are nutrient-dense and aligned with your health objectives.
 
-🥦 Nutritional Balance – Ensures that meals are nutrient-rich and aligned with your goals.
+🔄 Flexible Options – Swap or modify meals to suit personal preferences or restrictions.
 
-🔄 Flexible Options – Replace or adjust meals based on personal preferences.
+📊 Progress Tracking (Coming Soon) – Monitor your nutrition history and analyze your dietary trends.
 
-📊 Progress Tracking (Future Update) – Track your meal history and nutritional intake.
+## 👥 Ideal Users
 
+Bodybuilders – Optimize protein intake and manage macronutrient ratios.
 
+Workers – Enjoy efficient, energy-sustaining meals for a productive day.
 
-## 👥 Who Is It For?
+Students – Access affordable, balanced meals that enhance focus and performance.
 
-Bodybuilders – Optimize protein intake and macros.
+Seniors – Benefit from gentle, easily digestible meals that support longevity.
 
-Workers – Quick, efficient meals that keep you energized throughout the day.
+General Users – Perfect for anyone striving for consistent, healthy eating habits.
 
-Students – Affordable, balanced meals that support focus and learning.
+## 🔮 Roadmap & Future Enhancements
 
-Seniors – Gentle, easy-to-digest meals for health and longevity.
+📱 Mobile Application – Native iOS and Android support.
 
-General Users – Anyone who struggles with maintaining a consistent eating lifestyle.
+🍽 Recipe Database – Access detailed cooking instructions for each meal.
 
+📈 Nutrition Tracking – Integrate with fitness and health tracking apps for deeper insights.
 
+🔔 Smart Meal Reminders – Get timely notifications to maintain consistent eating habits.
 
-## 📌 Future Enhancements
+## 🚀 Getting Started Prerequisites
 
-📱 Mobile App Version – iOS & Android support.
-
-🍽 Recipe Database – Meals with detailed cooking instructions.
-
-📈 Nutrition Tracking – Integration with fitness apps for better health insights.
-
-🔔 Meal Reminders – Smart notifications for timely eating habits.
-
-
-
-## 🚀 Getting Started
-
-Prerequisites
+Ensure you have the following installed:
 
 Node.js
  (v18 or later recommended)
