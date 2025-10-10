@@ -120,3 +120,6 @@ If you’d like to suggest improvements, please fork the repo and submit a pull 
 ## 📜 License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute it with attribution.
+
+## Developed and Maintained
+devThugz 💻
