@@ -48,20 +48,20 @@ export default {
           foreground: "var(--color-popover-foreground)", 
         },
         card: {
-          DEFAULT: "var(--color-card)", // white
-          foreground: "var(--color-card-foreground)", // gray-900
+          DEFAULT: "var(--color-card)", 
+          foreground: "var(--color-card-foreground)", 
         },
         success: {
-          DEFAULT: "var(--color-success)", // green-500
-          foreground: "var(--color-success-foreground)", // white
+          DEFAULT: "var(--color-success)", 
+          foreground: "var(--color-success-foreground)", 
         },
         warning: {
-          DEFAULT: "var(--color-warning)", // orange-500
-          foreground: "var(--color-warning-foreground)", // white
+          DEFAULT: "var(--color-warning)", 
+          foreground: "var(--color-warning-foreground)", 
         },
         error: {
-          DEFAULT: "var(--color-error)", // red-500
-          foreground: "var(--color-error-foreground)", // white
+          DEFAULT: "var(--color-error)", 
+          foreground: "var(--color-error-foreground)",
         },
       },
       borderRadius: {
