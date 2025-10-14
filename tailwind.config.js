@@ -18,34 +18,34 @@ export default {
     },
     extend: {
       colors: {
-        border: "var(--color-border)", // gray-300
-        input: "var(--color-input)", // white
-        ring: "var(--color-ring)", // green-800
-        background: "var(--color-background)", // gray-50
-        foreground: "var(--color-foreground)", // gray-900
+        border: "var(--color-border)",
+        input: "var(--color-input)",
+        ring: "var(--color-ring)",
+        background: "var(--color-background)", 
+        foreground: "var(--color-foreground)",
         primary: {
-          DEFAULT: "var(--color-primary)", // green-800
-          foreground: "var(--color-primary-foreground)", // white
+          DEFAULT: "var(--color-primary)", 
+          foreground: "var(--color-primary-foreground)", 
         },
         secondary: {
-          DEFAULT: "var(--color-secondary)", // light-green-800
-          foreground: "var(--color-secondary-foreground)", // white
+          DEFAULT: "var(--color-secondary)", 
+          foreground: "var(--color-secondary-foreground)", 
         },
         destructive: {
-          DEFAULT: "var(--color-destructive)", // red-500
-          foreground: "var(--color-destructive-foreground)", // white
+          DEFAULT: "var(--color-destructive)", 
+          foreground: "var(--color-destructive-foreground)",
         },
         muted: {
           DEFAULT: "var(--color-muted)", // gray-100
-          foreground: "var(--color-muted-foreground)", // gray-600
+          foreground: "var(--color-muted-foreground)", 
         },
         accent: {
-          DEFAULT: "var(--color-accent)", // amber-600
-          foreground: "var(--color-accent-foreground)", // white
+          DEFAULT: "var(--color-accent)", 
+          foreground: "var(--color-accent-foreground)", 
         },
         popover: {
-          DEFAULT: "var(--color-popover)", // white
-          foreground: "var(--color-popover-foreground)", // gray-900
+          DEFAULT: "var(--color-popover)", 
+          foreground: "var(--color-popover-foreground)", 
         },
         card: {
           DEFAULT: "var(--color-card)", // white
