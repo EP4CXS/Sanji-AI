@@ -109,7 +109,7 @@ Nutrilife/
 
 ```
 
-## 🤝 Contributing
+## 🤝 Contributings
 
 git 
 Contributions are welcome!
